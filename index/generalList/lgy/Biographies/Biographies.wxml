@@ -1,0 +1,109 @@
+<!--pages/lgy/Biographies/Biographies.wxml-->
+
+    
+  
+    <view class="head-lgy1">
+      <view class="titleName">{{generalName}}</view>
+    
+    
+    </view>
+    
+<view class="body-lgy1">
+    <view class="fs1">
+      义兄弟：
+      <view class="FSimg1" >
+        
+        <view class="fs-back" style="background-image: url({{fsdatalist.Borther[0].url}})">
+          
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.Borther[0].name}}</text></view>
+        </view>
+        <view class="fs-back" style="background-image: url({{fsdatalist.Borther[1].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.Borther[1].name}}</text></view>
+        </view>
+        <view class="fs-back" style="background-image: url({{fsdatalist.Borther[2].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.Borther[2].name}}</text></view>
+        </view>
+      </view>
+    </view>
+    <view class="fs1">
+      亲近武将：
+      <view class="FSimg1">
+        <view class="fs-back" style="background-image: url({{fsdatalist.Friend[0].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.Friend[0].name}}</text></view>
+        </view>
+        <view class="fs-back" style="background-image: url({{fsdatalist.Friend[1].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.Friend[1].name}}</text></view>
+        </view>
+        <view class="fs-back" style="background-image: url({{fsdatalist.Friend[2].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.Friend[2].name}}</text></view>
+        </view>
+         <view class="fs-back" style="background-image: url({{fsdatalist.Friend[3].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.Friend[3].name}}</text></view>
+        </view>
+        <view class="fs-back" style="background-image: url({{fsdatalist.Friend[4].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.Friend[4].name}}</text></view>
+        </view>
+        <view class="fs-back" style="background-image: url({{fsdatalist.Friend[5].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.Friend[5].name}}</text></view>
+        </view>
+        <view class="fs-back" style="background-image: url({{fsdatalist.Friend[6].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.Friend[6].name}}</text></view>
+        </view>
+      </view>
+      </view>
+    </view>
+    <view class="fs1">
+      厌恶武将：
+      <view class="FSimg1">
+        <view class="fs-back" style="background-image: url({{fsdatalist.HateGeneral[0].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.HateGeneral[0].name}}</text></view>
+        </view>
+        <view class="fs-back" style="background-image: url({{fsdatalist.HateGeneral[1].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.HateGeneral[1].name}}</text></view>
+        </view>
+        <view class="fs-back" style="background-image: url({{fsdatalist.HateGeneral[2].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.HateGeneral[2].name}}</text></view>
+        </view>
+       <view class="fs-back" style="background-image: url({{fsdatalist.HateGeneral[3].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.HateGeneral[3].name}}</text></view>
+        </view>
+        <view class="fs-back" style="background-image: url({{fsdatalist.HateGeneral[4].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.HateGeneral[4].name}}</text></view>
+        </view>
+        <view class="fs-back" style="background-image: url({{fsdatalist.HateGeneral[5].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.HateGeneral[5].name}}</text></view>
+        </view>
+        <view class="fs-back" style="background-image: url({{fsdatalist.HateGeneral[6].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.HateGeneral[6].name}}</text></view>
+        </view>
+      </view>
+    </view>
+    <view class="fs1">
+      仇敌：
+      <view class="FSimg1">
+        <view class="fs-back" style="background-image: url({{fsdatalist.Enemy[0].url}})">
+          <image class="fs-img" src="{{HeadPortraitImgBack}}"></image>
+          <view class="fs-txt"><text class="fs-name">{{fsdatalist.Enemy[0].name}}</text></view>
+        </view>
+       
+    </view>
+      
+</view>
+ 

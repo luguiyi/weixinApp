@@ -1,0 +1,102 @@
+
+.head-lgy1{
+  position:relative;
+  top: 0rpx;     /*值的大小可设置为px、百分数、em类型*/
+  /*left: 25px;*/
+  width: 100%; 
+  height :400rpx;
+/* background:#ffff8B;*/
+ 
+}
+.body-lgy1{
+  position: absolute;
+  
+  width: 100%; 
+  height :70%;
+  /*background:#366fff;
+*/
+}
+
+.titleName {
+  position:absolute;
+   top:12rpx;
+  width: 100%;
+  justify-content: center;
+  color: 	#dcd1af;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+}
+
+.charshow{
+  position: relative;
+  left: 50rpx;
+ 
+  height : 400rpx;
+
+
+  display:flex;
+ 
+}
+.charshow2{
+  position: relative;
+ 
+
+  height : 400rpx;
+
+ 
+  display:flex;
+ 
+}
+.gcshow{
+  position: relative;
+   width : 325rpx;
+  height :400rpx;
+   background-repeat:no-repeat;
+   background-size:100% 100%;
+  color: 	#dddddf;
+}
+.spshow{
+  display:flex;
+  flex-direction: row ;
+ 
+}
+.spnull{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+ justify-content:center;
+  color: 	#dddddf;
+}
+.SPTEMP{
+  position: relative;
+   display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  color:#dcd1af;
+}
+.DEPICT{
+   position:relative;
+   margin-top:10rpx;
+  margin-bottom:10rpx ;
+  padding:10rpx; 
+ font-size:28rpx;
+  font-family:"STKaiti";
+}
+.ConditionDesc{
+  position:relative;
+   margin-top:10rpx;
+  margin-bottom:10rpx ;
+  padding:10rpx; 
+ font-size:28rpx;
+  font-family:"STKaiti";
+}
+.EffectDesc{
+  position:relative;
+   margin-top:10rpx;
+  margin-bottom:10rpx ;
+  padding:10rpx; 
+ font-size:28rpx;
+  font-family:"STKaiti";
+}

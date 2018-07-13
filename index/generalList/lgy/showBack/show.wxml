@@ -1,0 +1,45 @@
+<!--pages/lgy/show.wxml-->
+<!--<view id="tapTest" data-id="1" data-hi="WeChat" bindtap="tapName"> Click me! </view>-->
+<import src="../../../../../utils/radar/radar.wxml"/>
+
+ 
+  <view class="head-lgy">
+    <view class="titleName">{{generalName}}</view>
+    <view class="HeadPortrait-back" style="background-image: url({{pageBackgroundImg}})">
+      <image class="HeadPortrait-img" src="{{HeadPortraitImgBack}}"></image>
+    </view>
+    
+    <view class="RadarMap-back">
+    <image class="RadarMap-back-img"   src="{{RadarMapBackImg}}"></image>
+     <!-- 调用雷达图 -->
+      <template is="radar"  data="{{radarData: radarData}}"/>
+      
+    </view>
+  </view>
+  
+  <view class="body-lgy">
+   <image class="attributeImg" src="{{attributeImgBack}}"></image>
+    <view class="fen">
+      <view  style="width:50%">
+      <block wx:for="{{listData}}" wx:key="{{code}}" wx:if="{{index % 2 == 0}}">
+        <view class="tr " style="color:{{item.color}};">
+          <view class="td">{{item.code}}</view>
+          <view class="td">{{item.text}}</view>
+        </view>
+      </block>
+      </view>
+
+      <view style="width:50%">
+        <block wx:for="{{listData}}" wx:key="{{code}}" wx:if="{{index % 2 != 0}}">
+          <view class="tr " style="color:{{item.color}};">
+            <view class="td">{{item.code}}</view>
+            <view class="td">{{item.text}}</view>
+          </view>
+        </block>
+      </view>
+    </view>
+    <image class="attributeImg2"
+    src="{{attributeImg2Back}}"></image>
+    
+  </view>
+  

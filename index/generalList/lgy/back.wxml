@@ -1,0 +1,27 @@
+<view class="index">
+  <view class="choice">
+    <image class="choice-img" src="{{choiceimg}}"><view data-showlgy="{{showlgy}}" bindtap="selected" class="name-lgy1" style=" color:{{fontcolor}}" >能力</view></image>
+    <image class="choice-img2" src="{{choiceimg2}}"><view data-showlgy="{{showlgy}}" bindtap="selected2" class="name-lgy1" style=" color:{{fontcolor2}}" >特性</view></image>
+    <image class="choice-img3" src="{{choiceimg3}}"><view data-showlgy="{{showlgy}}" bindtap="selected3" class="name-lgy1" style=" color:{{fontcolor3}}" >关系</view></image>
+    <image class="choice-img4" src="{{choiceimg4}}"><view data-showlgy="{{showlgy}}" bindtap="selected4" class="name-lgy1" style=" color:{{fontcolor4}}" >列传</view></image>
+
+  </view>
+  <view class="index-lgy" 
+  style="background-image: url('{{indexback}}')" >
+    
+  <view wx-if="{{showlgy==1}}">
+   <include src="showBack/show.wxml"/>
+  </view>
+  <view wx-if="{{showlgy==2}}">
+   <include class="show" src="Characteristic/Characteristic.wxml"/>
+  </view>
+    
+  <view wx-if="{{showlgy==3}}">
+   <include class="show" src="Biographies/Biographies.wxml"/>
+  </view>
+  <view wx-if="{{showlgy==4}}">
+   <include class="show" src="personal/personal.wxml"/>
+  </view>
+
+  </view>
+</view>

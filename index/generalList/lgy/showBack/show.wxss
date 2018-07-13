@@ -1,0 +1,165 @@
+/* pages/lgy/show.wxss */
+@import "../../../../../utils/radar/radar.wxss";
+
+.head-lgy{
+  position: relative;
+  top: 0rpx;     /*值的大小可设置为px、百分数、em类型*/
+  /*left: 25px;*/
+  width: 100%; 
+  height :400rpx;
+ /* background:#ffff8B;*/
+ 
+}
+.body-lgy{
+  position: relative;
+
+  width: 100%; 
+ /* height :70%;*/
+  /*background:#366fff;*/
+}
+.HeadPortrait-back{
+ position:absolute;
+  top: 125rpx; 
+  left: 85rpx;
+ 
+  background-size:92% 92%;
+  width : 240rpx;
+  height : 240rpx;
+  background-repeat:no-repeat;
+  z-index: 1;
+}
+.HeadPortrait-img{
+  top:-10rpx;
+  left: -15rpx;
+ position:absolute;
+  width : 240rpx;
+  height : 240rpx;
+  background-repeat:no-repeat;
+  z-index: 10;
+}
+.RadarMap-back{
+ position:absolute;
+
+ /*background:#366fff;*/
+  left: 340rpx;
+  top:100rpx;
+  width : 360rpx;
+  height :260rpx;
+  background-repeat:no-repeat;
+  z-index:9;
+}
+.RadarMap-back-img{
+  position:absolute;
+  top:35rpx;
+  left:70rpx;
+  width : 200rpx;
+  height :180rpx;
+  
+ /*background:#dddddf;*/
+}
+
+.fen{
+  position:relative;
+  top:60rpx;
+   display:flex;
+   width: 100%;
+   height: 950rpx;
+   /*background:#dddddf;*/
+}
+.tr {
+  
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 65rpx;
+  align-items: center;
+  
+}
+.td {
+    width:40%;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.titleName {
+  position:absolute;
+   top:12rpx;
+  width: 100%;
+  justify-content: center;
+  color: 	#dcd1af;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+}
+.attributeImg{
+  position:absolute;
+ 
+  left:175rpx;
+  /*background:#dddddf;*/
+  height: 50rpx;
+  width: 400rpx;
+}
+.attributeImg2{
+  position:absolute;
+  top:1030rpx;
+  left:175rpx;
+  /*background:#dddddf;*/
+  height: 50rpx;
+  width: 400rpx;
+}
+.choice{
+  position:absolute;
+  z-index:2;
+  height: 65rpx;
+  width: 400rpx;
+  /*background:#dddddf;*/
+}
+.choice-img{
+   position:absolute;
+
+   left:30rpx;
+  height: 65rpx;
+  width: 173rpx;
+}
+.choice-img2{
+   position:absolute;
+  
+   left:203rpx;
+  height: 65rpx;
+  width: 173rpx;
+}
+.choice-img3{
+   position:absolute;
+  
+   left:376rpx;
+  height: 65rpx;
+  width: 173rpx;
+}
+.choice-img4{
+   position:absolute;
+
+   left:549rpx;
+  height: 65rpx;
+  width: 173rpx;
+}
+.name-lgy{
+   position:absolute;
+   top:0rpx;
+  width: 100%;
+  justify-content: center;
+  color: #ffffff;
+  display: flex;
+  height: 1.5rem;
+  align-items: center;
+}
+.name-lgy1{
+   position:absolute;
+   top:0rpx;
+  width: 100%;
+  justify-content: center;
+  color: yellow;
+  display: flex;
+  height: 1.5rem;
+  align-items: center;
+}

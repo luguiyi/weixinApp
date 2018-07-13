@@ -1,0 +1,40 @@
+
+    
+  
+    <view class="head-lgy1">
+      <view class="titleName">{{generalName}}</view>
+    
+    
+    </view>
+    
+<view class="body-lgy1">
+  <view class="spshow" wx-if="{{SPnum!=0}}">
+    <view style="width:50%">
+      <view class="charshow" wx:for="{{SPnum}}"  wx-if="{{index%2==0}}">
+        <view class="gcshow" style="background-image: url('http://luguiyi.top/Demo/image/generalback/new_public_34.png')" >
+
+          <view class="SPTEMP">{{SPTEMP[index]}}</view>         
+          <view class="DEPICT">{{DEPICT[index]}}</view>
+          <view class="ConditionDesc">{{ConditionDesc[index]}}</view>
+          <view class="EffectDesc" >{{EffectDesc[index]}} </view>
+
+        </view> 
+      </view>
+    </view>
+    <view style="width:50%">
+      <view class="charshow2"  wx:for="{{SPnum}}" wx-if="{{index%2!=0}}">
+        <view class="gcshow" style="background-image: url('http://luguiyi.top/Demo/image/generalback/new_public_34.png')" >
+          <view class="SPTEMP">{{SPTEMP[index]}}</view>         
+          <view class="DEPICT">{{DEPICT[index]}}</view>
+          <view class="ConditionDesc">{{ConditionDesc[index]}}</view>
+          <view class="EffectDesc" >{{EffectDesc[index]}} </view>
+        </view> 
+      </view>
+    </view>
+  
+  </view>
+  <view class="spnull" wx-if="{{SPnum==0}}">
+    该武将暂无特性
+  </view>
+</view>
+ 

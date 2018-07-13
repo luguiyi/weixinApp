@@ -1,0 +1,55 @@
+/* pages/lgy/personal/personal.wxss */
+
+.head-lgy1{
+  position:relative;
+  top: 0rpx;     /*值的大小可设置为px、百分数、em类型*/
+  /*left: 25px;*/
+  width: 100%; 
+  height :80rpx;
+/* background:#ffff8B;*/
+ 
+}
+.body-lgy1{
+  position: relative;
+  
+  width: 100%; 
+  height :100%;
+  /*background:#26282d;*/
+
+}
+
+.titleName {
+  position:absolute;
+   top:12rpx;
+  width: 100%;
+  justify-content: center;
+  color: 	#dcd1af;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+}
+.sanguozhi{
+  position:relative;
+  /*background:#ffff8B;*/
+  left: 50rpx;
+   width :650rpx;
+}
+.sanguozhiImg{
+  position:relative;
+  left: 50rpx;
+  width : 171rpx;
+  height : 51rpx;
+  background-repeat:no-repeat;
+  z-index: 10;
+}
+.sanguozhiP{
+  position:relative;
+  color: 	#dddddf;
+  font-size:28rpx;
+  font-family:"STKaiti";
+  width : 600rpx;
+  margin-top:100rpx;
+  margin-bottom:100rpx ;
+  padding:100rpx; 
+   /*background:#ffff8B;*/
+}

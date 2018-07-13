@@ -1,0 +1,23 @@
+<!--pages/lgy/personal/personal.wxml-->
+
+    
+  
+    <view class="head-lgy1">
+      <view class="titleName">{{generalName}}</view>
+    </view>
+    
+    <view class="body-lgy1">
+      <view class="sanguozhi">
+        <image class="sanguozhiImg" src='{{sanguozhi}}'></image>
+        <text class="sanguozhiP">{{SGZ}}</text>
+      </view>
+      <view class="sanguozhi">
+      <image class="sanguozhiImg" src='{{sanguoyanyi}}'></image>
+        <text class="sanguozhiP">{{SGYY}}</text>
+      </view>
+      <view class="sanguozhi">
+      <image class="sanguozhiImg" src='{{sanguoqita}}'></image>
+        <text class="sanguozhiP">{{SGQT}}</text>
+      </view>
+    </view>
+ 
