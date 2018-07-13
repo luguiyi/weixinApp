@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/generalList/list",
+    "pages/index/generalList/lgy/back"
+  
+
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "三国志汉末霸业助手",
+    "navigationBarTextStyle":"black"
+  }
+}

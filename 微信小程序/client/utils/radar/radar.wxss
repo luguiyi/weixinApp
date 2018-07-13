@@ -1,0 +1,15 @@
+.radar {
+   /* text-align: center;*/
+   position:absolute;
+
+  
+
+  z-index:12;
+}
+
+.radar canvas {
+    width: 360rpx;
+    height: 260rpx;
+   /*background-color: #bbbbff;*/
+}
+
